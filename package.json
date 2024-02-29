@@ -1,0 +1,41 @@
+{
+  "name": "alioss-file",
+  "version": "1.0.0",
+  "description": "alioss文件操作库",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "lib/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanyicss/lib.alioss-file.git"
+  },
+  "keywords": [
+    "alioss",
+    "filedownload"
+  ],
+  "author": "wanyi.css",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanyicss/lib.alioss-file/issues"
+  },
+  "dependencies": {
+    "ali-oss": "^6.1.0",
+    "underscore": "^1.13.6"
+  },
+  "homepage": "https://github.com/wanyicss/lib.alioss-file#readme",
+  "devDependencies": {
+    "chai": "^4.4.0",
+    "mocha": "^10.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  }
+}
