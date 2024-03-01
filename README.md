@@ -11,6 +11,7 @@ npm install alioss-file --save
 ### 接口
 - [初始化sdk](#初始化sdk)
 - [下载文件](#下载文件)
+- [下载文件夹](#下载文件夹)
 
 #### 初始化sdk
 ```js
